@@ -10,7 +10,7 @@
         double b = double.Parse(Console.ReadLine()!);
 
         Console.WriteLine("Выберите операцию (+ или *):");
-        char op = Console.ReadLine()[0];
+        char op = Console.ReadLine()![0];
 
         double result = op == '+' ? a + b : a * b;
         Console.WriteLine($"Результат: {result}");
