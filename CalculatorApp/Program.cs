@@ -13,6 +13,6 @@
         char op = Console.ReadLine()[0];
 
         double result = op == '+' ? a + b : a * b;
-        Console.WriteLine($"Результат: {a+b}");
+        Console.WriteLine($"Результат: {result}");
     }
 }
